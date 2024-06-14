@@ -1,0 +1,15 @@
+{
+  "name": "test-workers-types",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240605.0",
+    "typescript": "^5.4.5",
+    "wrangler": "3.60.3"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc"
+  }
+}
